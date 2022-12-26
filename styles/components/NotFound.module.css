@@ -1,0 +1,32 @@
+.not_found {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.link {
+  padding: 15px;
+  height: 54px;
+  background: #fed530;
+  border-radius: 27px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.link:hover {
+  background: #e4c95e;
+}

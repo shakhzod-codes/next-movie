@@ -1,0 +1,41 @@
+.picker {
+  display: flex;
+  align-items: center;
+  flex: 2fr 1fr auto;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.time_slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.dates {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 11px;
+  width: 100%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  height: 54px;
+  background: #fed530;
+  border-radius: 27px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.link:hover {
+  background: #e4c95e;
+}

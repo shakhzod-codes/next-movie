@@ -1,0 +1,21 @@
+.search_layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 19px;
+  max-width: 600px;
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

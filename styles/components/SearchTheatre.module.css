@@ -1,0 +1,10 @@
+.theatre {
+  display: flex;
+  align-items: center;
+  flex: 2fr 1fr auto;
+  justify-content: space-between;
+}
+
+.input {
+  margin-right: 10px;
+}

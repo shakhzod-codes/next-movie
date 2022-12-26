@@ -1,0 +1,19 @@
+.search_section {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 4rem 0;
+  background: linear-gradient(270deg, #000000 -2.92%, rgba(0, 0, 0, 0) 100%);
+  padding: 0 104px;
+}
+
+.left_section {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+}
+
+.right_section {
+  width: 55%;
+  max-width: 600px;
+}
