@@ -17,3 +17,19 @@
   width: 55%;
   max-width: 600px;
 }
+
+@media screen and (max-width: 1010px) {
+  .search_section {
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .left_section {
+    display: none;
+  }
+
+  .right_section {
+    width: 100%;
+  }
+}
